@@ -16,3 +16,8 @@ The logic is still very unoptimized but here is the general flow
  - Once the hOCR media is retrieved, we attempt to get its file content
  - For each ocrx_word in the file content, we attempt to represented it in an annotation list format for the adapter
  - The final list is returned as a representation and could be loaded by the annotation mirador plugin
+
+# Regards to hOCR and possibility of Editing with mirador
+This module was an prototype to test whether mirador-annotations plugin was capable of handling an hOCR editing workflow. The conclusion was that the mirador-annotations plugin is not suited for the task of loading word level hOCR due to the number of boxes that had to be drawn. The number of boxes drawn results in very laggy and non-user friendly experience in the mirador viewer. 
+
+Furthermore, the entire workflow presents difficultly translating from annotations list back to hOCR if additional words were to be created.
