@@ -1,0 +1,8 @@
+hocr_annotation.search:
+  path: '/hocr_annotation/search'
+  defaults:
+    _controller: '\Drupal\hocr_annotation_converter\Controller\HocrAnnotation::search'
+    _title: 'Search Pages'
+  requirements:
+    _permission: 'access content'
+  methods: [GET]

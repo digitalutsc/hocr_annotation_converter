@@ -1,0 +1,16 @@
+{
+  "name": "drupal/hocr_annotation_converter",
+  "type": "drupal-module",
+  "description": "",
+  "keywords": ["Drupal"],
+  "repositories": {
+    "drupal": {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "symfony/dom-crawler": "^5.0"
+  },
+  "minimum-stability": "dev"
+}

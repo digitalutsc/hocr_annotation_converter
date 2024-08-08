@@ -1,0 +1,5 @@
+name: 'hOCR Annotation Converter'
+type: module
+description: 'A module to open a file, convert its content, and return the content via an endpoint.'
+core_version_requirement: ^10
+package: Custom
